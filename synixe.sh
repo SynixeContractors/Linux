@@ -26,7 +26,7 @@ launch() {
     # Construct the mod arguments for Steam
     mod_args=""
     for folder in $mod_folders; do
-        mod_args+="-mod=\"$(realpath "$folder")\" "
+        mod_args+="-mod=\"Z:$(realpath "$folder")\" "
     done
 
     # Launch Arma 3 via Steam with the mod arguments
