@@ -65,6 +65,8 @@ case $1 in
         PORT="2602"
         PASSWORD="equals"
         ;;
+    launch)
+        ;;
     *)
         echo "Usage: $0 {update|launch|training|contracts}"
         exit 1
